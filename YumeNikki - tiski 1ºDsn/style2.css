@@ -1,0 +1,133 @@
+@font-face {
+  font-family: pixel-wow;
+  src: url(HelvetiPixel.ttf);
+}
+
+@font-face {
+  font-family: ota_fonte;
+  src: url(rainyhearts.ttf);
+}
+
+* {
+  font-family: ota_fonte;
+}
+
+* {
+  scroll-behavior: smooth;
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: #000000;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+*,
+*::before,
+*::after {
+  color: #000000;
+}
+
+li,
+a {
+  font-size: 20px;
+  color: white;
+  text-decoration: none;
+}
+
+.full-section {
+  width: 100%;
+
+  min-height: calc(100vh - 100px);
+  padding: 40px 20px;
+  box-sizing: border-box;
+}
+.bg-link {
+  background-color: #cf5c36;
+  min-height: auto;
+  height: 150px;
+}
+
+/* Alinha a primeira seção perfeitamente logo abaixo do menu fixo */
+.uou {
+  margin-top: 20px;
+}
+
+/* Garante o alinhamento da rolagem quando clicar nos links */
+section {
+  scroll-margin-top: 100px;
+}
+
+/* Cores de fundo transferidas do HTML para o CSS */
+.bg-Yume_Nikki {
+  background-image: url(yume\ nikki.jfif);
+  border: solid 15px rgba(222, 211, 255, 0.608);
+}
+
+.bg-sobre {
+  background-image: url(bruxaevento.jfif);
+  border: solid 10px rgba(255, 4, 0, 0.552);
+  background-size: 60%;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.bg-musica {
+  background-image: url(CheckeredTilePath.jpg);
+  border: solid 10px rgba(150, 94, 254, 0.585);
+  background-size: contain;
+  background-position: center;
+  background-repeat: repeat-x;
+}
+
+.bg-Pec {
+  background-image: url(weird.jpg);
+  border: solid 10px rgba(254, 169, 94, 0.585);
+}
+
+.bg-link {
+  padding: 0%;
+  margin: 0%;
+  border: solid 10px rgba(0, 0, 0, 0.585);
+  background-image: url(⠀.jpg);
+}
+
+.text-light {
+  color: white;
+}
+
+@media (max-width: 800px) {
+  li,
+  a,
+  button {
+    font-size: 14px;
+  }
+
+  .logo {
+    height: 50px;
+    width: 50px;
+  }
+
+  .nav-links {
+    gap: 5px;
+  }
+
+  .uou {
+    margin-top: 70px;
+  }
+
+  section {
+    scroll-margin-top: 70px;
+  }
+
+  .full-section {
+    min-height: calc(100vh - 70px);
+  }
+}
+
+img {
+  height: 100px;
+  width: 100px;
+}

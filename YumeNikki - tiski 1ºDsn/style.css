@@ -1,0 +1,352 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 150px;
+  background-image: url(Yn_card_madoroom.webp);
+  background-size: contain;
+  background-position: center;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 99999;
+}
+
+.logo {
+  background-image: url(Yume_Nikki.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: aliceblue solid 5px;
+
+  width: 30%;
+  height: 100px;
+  object-fit: fill;
+  border-color: aliceblue solid 7px;
+}
+
+.nav-links {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links li {
+  background-color: #8872e4;
+  border-radius: 4px;
+}
+
+.nav-links a {
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav-links li:hover {
+  background-color: #31238b;
+}
+
+button {
+  font-size: 20px;
+  color: rgb(255, 255, 255);
+  padding: 10px 20px;
+  background-color: rgb(27, 106, 252);
+  border: none;
+  border-radius: 60px;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-right: 250px;
+}
+
+button:hover {
+  background-color: rgb(19, 74, 176);
+}
+
+.Titulo {
+  align-items: center;
+  /* Centraliza os itens horizontalmente */
+  text-align: center;
+  /* Centraliza os textos internos */
+  width: 100%;
+  font-size: 40px;
+}
+
+.fundot {
+  margin-top: 0%;
+  background-image: url(widget1.jfif);
+
+  width: 1000px;
+
+  position: relative;
+
+  /* Camada de trás */
+}
+
+.caixa-fundo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 600px;
+  background-color: #647a9b;
+  border-radius: 8px;
+  margin-top: 1px;
+  margin-left: 200px;
+  border: solid 5px #e04a4a;
+}
+
+.Tabela {
+  border: solid 1px #e04a4a;
+  color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  margin-top: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0;
+  vertical-align: top;
+}
+
+.Titulo {
+  color: rgb(212, 176, 252);
+
+  flex-direction: column;
+  /* Alinha os itens em linha vertical */
+  align-items: center;
+  /* Centraliza os itens horizontalmente */
+  text-align: center;
+  /* Centraliza os textos internos */
+  width: 100%;
+  font-size: 40px;
+  margin-top: 1%;
+  transition: filter 0.3s ease;
+}
+
+.alumni-sans-sc {
+  font-family: "Alumni Sans SC", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.fundot {
+  margin-top: 0%;
+  background-image: url(widget1.jfif);
+
+  width: 1000px;
+  margin-bottom: 10px;
+  position: relative;
+}
+
+.Titulo:hover {
+  filter: drop-shadow(0 0 20px #ffffff);
+}
+
+.caixa-fundo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 900px;
+  height: 600px;
+  background-color: #647a9b;
+  border-radius: 8px;
+  margin-top: 1px;
+  margin-left: 200px;
+  border: solid 5px #e04a4a;
+  transition: filter 0.3s ease;
+}
+
+.caixa-fundo:hover {
+  filter: drop-shadow(0 0 50px #5b99f5);
+}
+
+.Tabela {
+  border: solid 1px #e04a4a;
+  color: antiquewhite;
+  width: 100%;
+  height: 100%;
+}
+
+table {
+  margin-top: 0;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0;
+  vertical-align: top;
+}
+
+.titulo_yume {
+  margin: 0;
+  padding: 0;
+  font-size: 50px;
+  color: #27242e;
+  text-align: center;
+}
+
+.tituloSobre {
+  margin-top: 20px;
+  font-family: ota_fonte;
+  font-size: 25px;
+  color: #27242e;
+
+  padding: 0;
+  letter-spacing: 2px;
+}
+
+.sobre {
+  color: #dcd6ff;
+  margin-right: 15px;
+  margin-top: 35px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  font-family: ota_fonte;
+  font-size: 20px;
+}
+
+.musicasobre {
+  color: #dcd6ff;
+  margin-right: 15px;
+  margin-top: 10px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  font-family: ota_fonte;
+  font-size: 20px;
+}
+
+.caixa-fundo2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  background-color: #bf8dd6;
+  border-radius: 8px;
+  margin-top: 1px;
+  margin-left: 300px;
+  border: solid 5px #7f1add;
+  transition: filter 0.3s ease;
+}
+
+.caixa-fundo2:hover {
+  filter: drop-shadow(0 0 20px #7f1add);
+}
+
+.Tabela2 {
+  color: #ffffff;
+  font-family: ota_fonte;
+  height: 95%;
+}
+
+.texto2 {
+  color: #fee8bc;
+  margin-right: 15px;
+  margin-top: 35px;
+  margin-left: 20px;
+  letter-spacing: 2px;
+  font-family: ota_fonte;
+  font-size: 35px;
+  text-align: center;
+  margin-bottom: 0%;
+  transform: scaleY(1.9);
+}
+
+.musicasplay {
+  color: #fee8bc;
+  margin-left: 20px;
+  margin-top: 35px;
+
+  letter-spacing: 2px;
+  font-family: ota_fonte;
+  font-size: 30px;
+}
+
+audio {
+  background-color: #0b0b0f;
+  border: 3px solid #cecefd;
+  border-radius: 0px;
+
+  padding: 4px;
+  width: 300px;
+}
+
+.caixaP {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 700px;
+  height: 400px;
+  background-color: #b16222;
+  border-radius: 8px;
+  margin-top: 35px;
+  margin-left: 300px;
+  border: solid 5px #550618;
+  color: #ffc595;
+  transition: filter 0.3s ease;
+}
+.caixaP:hover {
+  filter: drop-shadow(0 0 20px #550618);
+}
+
+.lista {
+  height: 100%;
+  width: 100%;
+  font-size: 30px;
+  font-family: ota_fonte;
+  text-align: center;
+}
+
+.lista,
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+strong,
+h3 {
+  text-decoration: underline 3px #e04a4a;
+  color: #ffc888;
+  transform: scale(1.9);
+}
+
+.botoes-redes {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.botoes-redes a img {
+  transition: filter 0.3s ease;
+}
+
+/* Exemplo para a Steam: dá um leve brilho azulado */
+.botoes-redes a.Steam:hover img {
+  filter: drop-shadow(0 0 8px #3d3dff);
+}
+
+/* Exemplo para o Youtube: dá um brilho vermelho */
+.botoes-redes a.youtube:hover img {
+  filter: drop-shadow(0 0 8px #ff0000);
+}
+
+/* Exemplo para o Spotify: dá um brilho verde */
+.botoes-redes a.spot:hover img {
+  filter: drop-shadow(0 0 8px #1ed760);
+}
